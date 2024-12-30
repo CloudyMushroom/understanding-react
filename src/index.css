@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body
+{
+    @apply bg-slate-100;
+}
+
+.main-container
+{
+    @apply m-5 p-5 bg-white shadow-md h-screen flex justify-center md:block;
+}
+
+.btn-counter
+{
+    @apply px-3 py-1 border rounded-lg cursor-pointer self-center transition ease-in-out hover:bg-yellow-300;
+}
+
+.txt-title
+{
+    @apply font-bold text-4xl
+}
