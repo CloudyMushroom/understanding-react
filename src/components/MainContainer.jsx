@@ -4,14 +4,13 @@ import TextCounter from './TextCounter'
 
 export default function()
 {
-    const [count, setCounter] = useState(0)
+    const [count, setCounter] = useState("")
 
     return(
         <div className='main-container'>
 
             <Button count={count} setCount={setCounter}/>
-
-            <TextCounter count={count}/>
+            <h1>Counter is {count} </h1>
             
         </div>
     )

@@ -1,12 +1,12 @@
 
 
-export default function TextCounter({count})
+export default function TextCounter(props)
 {
 
     
     return(
         <h1>
-            test{count}
+            test { props.count }
         </h1>
     )
 }
